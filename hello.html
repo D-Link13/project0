@@ -1,10 +1,13 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Hello world!</title>
   </head>
   <body>
+    <div class="container">
     <h1>Heading 1</h1>
     <h2>Heading 2</h2>
     <h3>Heading 3</h3>
@@ -16,19 +19,19 @@
       This is an unordered list:
     </div>
     <ul>
-      <li>List item 1</li>
-      <li>List item 2</li>
-      <li>List item 3</li>
-      <li>List item 4</li>
+      <li><a href="#item1">List item 1</a></li>
+      <li><a href="#item2">List item 2</a></li>
+      <li><a href="#item3">List item 3</a></li>
+      <li><a href="#item4">List item 4</a> </li>
     </ul>
     <div class="titles">
       This is an ordered list:
     </div>
     <ol>
-      <li>List item 1</li>
-      <li>List item 2</li>
-      <li>List item 3</li>
-      <li>List item 4</li>
+      <li><a href="#item1">List item 1</a></li>
+      <li><a href="#item2">List item 2</a></li>
+      <li><a href="#item3">List item 3</a></li>
+      <li><a href="#item4">List item 4</a> </li>
     </ol>
     <img src="https://sm.mashable.com/mashable_sea/photo/default/man-fakes-death-cat-q6u_2z9w.png" height="200">
     <br>
@@ -38,13 +41,43 @@
     </div>
     <table>
       <tr>
-        <th>Column 1</th>
-        <th>Column 2</th>
+        <th>Header 1</th>
+        <th>Header 2</th>
+        <th>Header 3</th>
+        <th>Header 4</th>
       </tr>
-      <tr>
-        <td>Row 1</td>
-        <td>Row 2</td>
-      </tr>
+      <div id="item1">
+        <tr>
+          <td>Item 1.1</td>
+          <td>Item 1.2</td>
+          <td>Item 1.3</td>
+          <td>Item 1.4</td>
+        </tr>
+      </div>
+      <div id="item2">
+        <tr>
+          <td>Item 2.1</td>
+          <td>Item 2.2</td>
+          <td>Item 2.3</td>
+          <td>Item 2.4</td>
+        </tr>
+      </div>
+      <div id="item3">
+        <tr>
+          <td>Item 3.1</td>
+          <td>Item 3.2</td>
+          <td>Item 3.3</td>
+          <td>Item 3.4</td>
+        </tr>
+      </div>
+      <div id="item4">
+        <tr>
+          <td>Item 4.1</td>
+          <td>Item 4.2</td>
+          <td>Item 4.3</td>
+          <td>Item 4.4</td>
+        </tr>
+      </div>
     </table>
     <br>
     Here are the inputs:
@@ -58,5 +91,6 @@
     </datalist>
     <button type="button">Button</button>
     <br><br><br><br><br><br>
+    </div>
   </body>
 </html>

@@ -1,0 +1,25 @@
+.container {
+  padding: 25px 50px 50px 50px;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: blue;
+}
+h1, h2 {
+  text-align: left;
+}
+h3, h4 {
+  text-align: center;
+}
+h5, h6 {
+  text-align: right;
+}
+p {
+  font-style: italic;
+  color: green;
+  margin-left: 8px;
+}
+.titles {
+  font: helvetica;
+  font-size: 18px;
+  color: red;
+}
