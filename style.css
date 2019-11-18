@@ -1,49 +1,76 @@
+tr, th, td {
+  padding: 5px 5px 5px 5px;
+  border-style: solid;
+  border-width: 1px; }
+
 .container {
   padding: 25px 50px 200px 50px;
-  background-color: lightgrey;
-}
+  background-color: lightgrey; }
+
 h1, h2, h3, h4, h5, h6 {
-  color: blue;
-}
+  color: blue; }
+
 h1, h2 {
-  text-align: left;
-}
+  text-align: left; }
+
 h3, h4 {
-  text-align: center;
-}
+  text-align: center; }
+
 h5, h6 {
-  text-align: right;
-}
+  text-align: right; }
+
 p {
   font-style: italic;
-  color: green;
-  margin-left: 8px;
-}
+  color: yellow;
+  margin-left: 8px; }
+
 ul > li {
-  color: orange;
-}
+  color: orange; }
+
 ol > li {
-  color: violet;
-}
+  color: violet; }
+
 .titles {
   font: helvetica;
   font-size: 18px;
-  color: red;
-}
+  color: red; }
+
 img {
-  margin: 20px 10px 20px 10px;
-}
+  margin: 20px 10px 20px 10px; }
+
 img[alt=image] {
   border-radius: 50px;
-  height: 200px;
-}
+  height: 200px; }
+
 button:hover {
-  background-color: orange;
-}
+  background-color: orange; }
+
 a::before {
   content: "Click here => ";
-  font-weight: bold;
-}
+  font-weight: bold; }
+
 h1::selection, h2::selection, h3::selection {
-  color: purple;
-}
+  color: purple; }
+
+table {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black; }
+
+tr {
+  border-color: black; }
+
+th {
+  border-color: yellow; }
+
+td {
+  border-color: orange; }
+
+@media print {
+  .titles {
+    color: yellow; } }
+@media (min-width: 1000px) {
+  h1::before {
+    content: "Additional text for big screen "; } }
+
+/*# sourceMappingURL=style.css.map */
